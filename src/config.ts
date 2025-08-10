@@ -9,7 +9,7 @@ export const siteConfig = {
     github: "https://github.com/jadep1103",
   },
   aboutMe:
-   "Master's AI student at Université Laval, Québec, QC with a keen interest in cloud engineering, engineer by training, curious by nature. I made the leap from electronics to AI because I wanted to understand intelligence beyond circuits. What I love about this field? You need to be both methodical and inventive to make things work. I find that physical challenges — gym, running — keep my mind sharp and focused. Currently in Canada for my master's, I’m also preparing for the AWS Solutions Architect Associate certification to build foundational cloud skills from scratch. I'm learning as much about AI as I am about myself — and both feed each other." ,skills: [
+   "Master's AI student at Université Laval (QC) with a keen interest in cloud engineering, engineer by training, curious by nature. I made the leap from electronics to AI because I wanted to understand intelligence beyond circuits. What I love about this field? You need to be both methodical and inventive to make things work. I find that physical challenges — gym, running — keep my mind sharp and focused. Currently in Canada for my master's, I’m also preparing for the AWS Solutions Architect Associate certification to build foundational cloud skills from scratch. I'm learning as much about AI as I am about myself — and both feed each other." ,skills: [
       "Python",
       "PyTorch",
       "TensorFlow",
