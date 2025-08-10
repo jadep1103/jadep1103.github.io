@@ -114,9 +114,7 @@ export const siteConfig = {
         name: "Egyptian Hieroglyphs Classification 📜",
         description:
           "Academic project comparing CNN and Transformer architectures (ResNet, Inception, ViT) for classifying Egyptian hieroglyphs across 40 classes. Achieved up to 98.7% accuracy using frozen ResNet18 with extensive data augmentation and transfer learning. Explores fine-tuning strategies to aid automated analysis of ancient scripts.",
-        links: {
-          GitHub: "https://github.com/jadep1103/Hieroglyphs-Classification.git",
-        },
+        links: "https://github.com/jadep1103/Hieroglyphs-Classification.git",
         skills: [
           "Python",
           "PyTorch",

@@ -134,15 +134,17 @@ import { siteConfig } from "../config";
       <h1
         class="mt-0 sm:mt-2 md:mt-4 text-pretty text-5xl sm:text-7xl md:text-7xl lg:text-9xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200"
       >
-         <span style={{ color: siteConfig.accentColor }}
-          >{siteConfig.name}</span
-        >
+         <span style={{ 
+          color: siteConfig.accentColor,
+          fontFamily: "'Neonderthaw'"
+        }}>{siteConfig.name}</span>
+
       </h1>
       <p
-        class="mt-0 sm:mt-2 md:mt-4 text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-gray-600 animate-fade-in animation-delay-400"
-      >
-        {siteConfig.title}
-      </p>
+  class="mt-4 sm:mt-6 md:mt-8 max-w-4xl text-base sm:text-lg md:text-xl leading-relaxed font-medium text-gray-600 animate-fade-in animation-delay-400"
+>
+  {siteConfig.title}
+</p>
     </div>
   </div>
   <div
