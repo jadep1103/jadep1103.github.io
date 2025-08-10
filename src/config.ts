@@ -46,9 +46,8 @@ export const siteConfig = {
         name: "Weeds Classification Suite 🌿🌱",
         description:
           "Comprehensive precision agriculture system featuring two AI-based weed identification pipelines: a YOLOv8 real-time detection model (12 species, 99.5% mAP@0.5, 30–60 FPS) for field deployment, and a custom CNN classifier (15 species, ~97% validation accuracy) with extensive data augmentation for robust recognition. Designed for integration with drones, smart farming equipment, and agricultural monitoring tools.",
-        link: {
-          YOLO: "https://github.com/jadep1103/YOLO-weedsClassification.git"
-        },
+        link: "https://github.com/jadep1103/YOLO-weedsClassification.git"
+        ,
         skills: [
           "Python",
           "YOLOv8",
