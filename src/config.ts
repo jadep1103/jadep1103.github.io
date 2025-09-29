@@ -9,13 +9,12 @@ export const siteConfig = {
     github: "https://github.com/jadep1103",
   },
   aboutMe:
-   "Master's AI student at Université Laval (QC) with a keen interest in cloud engineering, engineer by training, curious by nature. I made the leap from electronics to AI because I wanted to understand intelligence beyond circuits. What I love about this field? You need to be both methodical and inventive to make things work. I find that physical challenges — gym, running — keep my mind sharp and focused. Currently in Canada for my master's, I’m also preparing for the AWS Solutions Architect Associate certification to build foundational cloud skills from scratch. I'm learning as much about AI as I am about myself — and both feed each other." ,skills: [
+   "Master's student in Computer Science at Université Laval (QC, Canada), specializing in AI/ML, Data Engineering, and Cloud & DevOps. Engineer by training with a foundation in electronics and embedded systems, I shifted to AI to design and understand intelligent systems beyond hardware. What I love about this field is that it challenges me to be both methodical and inventive, while communicating and collaborating effectively — qualities I strengthen through physical activities like gym and running, which keep me focused, resilient, and mentally sharp for every project I tackle. Currently preparing for the AWS Solutions Architect Associate certification to strengthen my cloud engineering skills. Seeking an end-of-studies internship starting January 2026, with full-time availability afterward." ,skills: [
       "Python",
       "PyTorch",
       "TensorFlow",
       "FastAPI",
-      "React",
-      "PostgreSQL",
+      "SQL + NoSQL",
       "AWS",
       "Docker",
       "CI/CD",
@@ -24,6 +23,8 @@ export const siteConfig = {
       "Reinforcement Learning",
       "Transformers",
       "OpenCV",
+      "Kubernetes",
+      "Docker"
     ],
     projects: [
       {
@@ -53,13 +54,11 @@ export const siteConfig = {
           "YOLOv8",
           "OpenCV",
           "Ultralytics",
-          "TensorFlow",
-          "Keras",
           "CNN",
           "Computer Vision",
           "Deep Learning",
-          "CUDA",
-          "Data Augmentation"
+          "Data Augmentation", 
+          "Raspberry Pi"
         ],
       },      
       {
@@ -79,7 +78,7 @@ export const siteConfig = {
         ],
       },
       {
-        name: "F1-Tenth Biosignal Control System 🏎️🤖",
+        name: "F1-Tenth Biosignal Control System 🏎️",
         description:
           "LSTM-based control system for a 1/10 scale F1 car using multi-modal biosignals from the Sifilab Biopoint wearable sensor. Processes IMU data with a custom PyTorch pipeline for 5-class gesture classification. Part of the Université Laval AI Club Winter 2025 initiative, with future plans for real-time multi-sensor fusion and full car integration.",
         link: "https://github.com/jadep1103/LSTM-f1-tenth.git",
@@ -119,9 +118,11 @@ export const siteConfig = {
           "Python",
           "PyTorch",
           "Computer Vision",
+          "Vision Transformers",
           "CNN",
           "Transfer Learning",
-          "Vision Transformers",
+          "Feature Extraction",
+          "Fine-Tuning",
           "Data Augmentation",
           "Deep Learning",
           "Multi-class Classification",
@@ -137,10 +138,10 @@ export const siteConfig = {
       dateRange: "April 2024 - August 2024",
       location: "Stockholm, Sweden",
       bullets: [
-        "Developed AI music generation system using transformer models for game composers",
-        "Built data pipeline from Reaper DAW processing melodies, chords, and percussion arrangements",
-        "Skills: Python, PyTorch, Transformers, Music Information Retrieval, DAW Integration",
-      ],
+        "Implemented and trained Transformer & LSTM/RNN models to generate adaptive game soundtracks from initial tracks",
+        "Deployed model and integrated functionality into company's product front-end (React & TypeScript) to trigger model inference for music creation",
+        "Skills: Python, PyTorch, Transformers, LSTM/RNN, React, TypeScript, Music Information Retrieval",
+      ]
     },
     {
       company: "Club Intelligence Artificielle (CIA) - Université Laval",
@@ -148,10 +149,9 @@ export const siteConfig = {
       dateRange: "August 2025 - Present",
       location: "Quebec City, Canada",
       bullets: [
-        "Lead 4-person recruitment team to identify and attract talent for club AI projects",
-        "Coordinate outreach at tech kiosks, inter-university events, and department presentations",
-        "Organize club visibility initiatives contributing to 300+ LinkedIn followers and 59 active members",
-        "Support club activities reaching 238+ participants across 12 events (tutorials, development days, reading groups)",
+        "Coordinated recruitment for student allocation across 8 multidisciplinary AI projects",
+        "Grew club visibility (+63%; +300 LinkedIn followers) and supported 12+ events gathering over 240 participants",
+        "Lead recruitment team to identify and attract talent for club AI projects through tech kiosks, inter-university events, and department presentations",
       ],
     },
   ],
