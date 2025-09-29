@@ -9,7 +9,7 @@ export const siteConfig = {
     github: "https://github.com/jadep1103",
   },
   aboutMe:
-   "Master's student in Computer Science at Université Laval (QC, Canada), with a strong interest in AI/ML, Data Engineering, and Cloud & DevOps. Engineer by training with a foundation in electronics and embedded systems, I shifted to AI to design and understand intelligent systems beyond hardware. What I love about this field is that it challenges me to be both methodical and inventive, while communicating and collaborating effectively — qualities I strengthen through physical activities like gym and running, which keep me focused, resilient, and mentally sharp for every project I tackle. Currently preparing for the AWS Solutions Architect Associate certification to strengthen my cloud engineering skills. Seeking an end-of-studies internship starting January 2026, with full-time availability afterward." ,skills: [
+   "Master's student in Computer Science at Université Laval (QC, Canada), with a strong interest in AI/ML, Data Engineering, and Cloud & DevOps. Engineer by training with a foundation in electronics and embedded systems, I shifted to AI to design and understand intelligent systems beyond hardware. What I love about this field is that it challenges me to be both methodical and inventive, while collaborating and communicating effectively — qualities I bring to every project I tackle. Currently preparing for the AWS Solutions Architect Associate certification to strengthen my cloud engineering skills. Seeking an end-of-studies internship starting January 2026, with full-time availability afterward." ,skills: [
       "Python",
       "PyTorch",
       "TensorFlow",
