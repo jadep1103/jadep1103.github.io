@@ -8,7 +8,7 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/jade-piller-cammal-242b88261/",
     github: "https://github.com/jadep1103",
   },
-  aboutMe: "Master's student in Computer Science at Université Laval (QC, Canada), currently completing an AI R&D internship at Bentley Systems. Strong interest in AI/ML, Data Engineering, and Cloud & DevOps. Engineer by training with a foundation in electronics and embedded systems, I shifted to AI to design and understand intelligent systems beyond hardware. What I love about this field is that it challenges me to be both methodical and inventive, while collaborating and communicating effectively — qualities I bring to every project I tackle. Graduating May 2026.",
+  aboutMe: "Master's student in Computer Science at Université Laval (QC, Canada), currently completing an AI R&D internship at Bentley Systems. Strong interest in AI/ML, Data Engineering, and Software Engineering broadly. Engineer by training with a foundation in electronics and embedded systems, I shifted to AI to design and understand intelligent systems beyond hardware. What I love about this field is that it challenges me to be both methodical and inventive, while collaborating and communicating effectively, qualities I bring to every project I tackle. Graduating May 2026.",
 
   skills: [
     "Python",
@@ -33,7 +33,7 @@ export const siteConfig = {
     {
       name: "BouffeLab — Food Recommendation Platform",
       description:
-        "Recommendation engine helping users make informed nutritional choices by matching recipe ingredients to real Canadian grocery products across 70k+ items and 220k recipes. Designed the full data pipeline, consolidating 4 data sources into NoSQL databases (Cassandra, MongoDB), with Elasticsearch search, FastAPI backend, Vue.js frontend, and a custom Nutri-Score calculator.",
+        "🍽️ Recommendation engine helping users make informed nutritional choices by matching recipe ingredients to real Canadian grocery products across 70k+ items and 220k recipes. Designed the full data pipeline, consolidating 4 data sources into NoSQL databases (Cassandra, MongoDB), with Elasticsearch search, FastAPI backend, Vue.js frontend, and a custom Nutri-Score calculator.",
       skills: [
         "Python",
         "FastAPI",
@@ -46,7 +46,7 @@ export const siteConfig = {
       ],
     },
     {
-      name: "Precision Agriculture AI",
+      name: "🌿 Precision Agriculture AI",
       description:
         "Dual weed detection pipeline: YOLOv8 real-time detection model (99.5% mAP, 30–60 FPS) and a CNN classifier (97% accuracy) with extensive data augmentation. Designed for drone-ready deployment on Raspberry Pi for field use.",
       link: "https://github.com/jadep1103/YOLO-weedsClassification.git",
@@ -61,7 +61,7 @@ export const siteConfig = {
       ],
     },
     {
-      name: "F1-Tenth Biosignal Control System",
+      name: "🏎️ F1-Tenth Biosignal Control System",
       description:
         "LSTM-based gesture control system for a 1/10 scale F1 car using wearable biosignals. Processes IMU data with a custom PyTorch pipeline for real-time 5-class gesture classification.",
       link: "https://github.com/jadep1103/LSTM-f1-tenth.git",
@@ -75,7 +75,7 @@ export const siteConfig = {
       ],
     },
     {
-      name: "RAG Assistant — Contextual Q&A",
+      name: "🧠 RAG Assistant — Contextual Q&A",
       description:
         "Retrieval-Augmented Generation pipeline for contextual Q&A over PDFs. Processes documents into semantic embeddings (HuggingFace), stores them in a FAISS vector store, and answers queries using LLMs (Mistral, Llama) via a LangChain pipeline.",
       link: "https://github.com/jadep1103/1st-time-RAG.git",
@@ -90,7 +90,7 @@ export const siteConfig = {
       ],
     },
     {
-      name: "SafeRL: TRC vs PPO",
+      name: "🤖 SafeRL: TRC vs PPO",
       description:
         "Reimplementation of the Trust Region CVaR (TRC) safe reinforcement learning algorithm, benchmarked against PPO in Safety-Gymnasium environments. Includes sim-to-real transfer experiments across safety constraint difficulty levels, tracking reward, violations, and CVaR via Weights & Biases.",
       link: "https://github.com/jadep1103/safeRL.git",
@@ -104,7 +104,7 @@ export const siteConfig = {
       ],
     },
     {
-      name: "Egyptian Hieroglyphs Classification",
+      name: "📜 Egyptian Hieroglyphs Classification",
       description:
         "Comparison of CNN and Transformer architectures (ResNet, Inception, ViT) for classifying Egyptian hieroglyphs across 40 classes. Achieved 98.7% accuracy using frozen ResNet18 with transfer learning and data augmentation.",
       link: "https://github.com/jadep1103/Hieroglyphs-Classification.git",
